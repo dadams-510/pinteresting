@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   resources :users
 
   root 'pages#home'
   get 'about' => 'pages#about' #creates about path
+=======
+  
+  root "pages#home"
+  get "about" => "pages#about"
+>>>>>>> 9b335edbb0d1bb93f9074aa339032a99d518b1cb
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

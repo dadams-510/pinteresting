@@ -10,7 +10,11 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+<<<<<<< HEAD
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+=======
+//= require turbolinks
+>>>>>>> 9b335edbb0d1bb93f9074aa339032a99d518b1cb
